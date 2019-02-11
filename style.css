@@ -1,0 +1,142 @@
+body{
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+     background-image:url("background1.jpg");
+     background-repeat: repeat;
+     font-family: "Helvetica, sans-serif";
+}
+ nav {
+     background-color:#3e4444;
+     padding:10px 0;
+     width: 100%;
+     position: fixed;
+     height:10%;
+     font-size: 16px;
+}
+ nav ul {
+     list-style-type:none;
+     margin:0;
+     padding:0;
+}
+ nav ul li {
+     display:inline-block;
+     position:relative;
+}
+ nav a {
+     line-height:40px;
+     padding:0 12px;
+     margin:0 12px;
+}
+ nav a {
+     color:#fff;
+     text-decoration:none;
+     display:block;
+}
+ nav a:hover, nav a:focus, nav a:active {
+     color:#ff0000;
+}
+ #selfphotodiv{
+     box-shadow: 10px 10px 10px #888888;
+     margin-left: 2%;
+     float:left;
+     z-index: 1;
+}
+ #selfphoto{
+     width: 310px;
+     height: 350px;
+}
+ #fullcontent{
+     margin-top: 7%;
+     float:left;
+     width:100%;
+}
+ #Home_1{
+     width: 70%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ li{
+     list-style-type: square;
+     padding: 8px;
+}
+ #education{
+     width: 70%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ #skills_content{
+     width: 70%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ #skillsimg{
+     width: 800px;
+     height: 500px;
+     box-shadow: 10px 10px 30px #888888;
+}
+ #workstudy{
+     width: 75%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ #Volunteer{
+     width: 70%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ #Projects{
+     width: 70%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ #achievements{
+     width: 70%;
+     padding-left: 24em;
+     font-size: 1.2em;
+}
+ .content{
+     width: 80%;
+     padding-left: 2em;
+     font-style: italic;
+     border: 2px solid;
+     background-color: #3e4444;
+     color: white;
+     box-shadow: 10px 10px 20px #888888;
+}
+ .standout{
+     font-weight: bold;
+}
+ #contact{
+     width: 90%;
+     border: 2px solid black;
+     padding: 4px;
+     margin-left: 4.5%;
+     margin-top: 8%;
+     margin-bottom: 1%;
+     z-index: 1;
+     float:left;
+     clear: both;
+     box-shadow: 10px 10px 20px #888888;
+     font-size: 16px;
+}
+ #contact h2{
+     font-size: 26px;
+     font-weight: bold;
+}
+ #location{
+     width: 20px;
+     height: 30px;
+}
+ #email{
+     width: 30px;
+     height: 30px;
+}
+ #phone{
+     width: 30px;
+     height: 30px;
+}
+ #linkedin{
+     width: 30px;
+     height: 30px;
+}
